@@ -1,0 +1,35 @@
+/* fonts */
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Poppins:ital,wght@1,800&display=swap');
+
+/* common style */
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+
+
+/* top player styles */
+
+.players{
+display: grid;
+
+grid-template-columns:repeat(3,1fr) ;
+
+/* grid-template-columns:repeat(1fe, 1fe ,1fr) ; */
+
+}
+.player{
+   display: flex;
+   align-items: center;
+ 
+}
+
+.players img{
+
+    width: 56px;
+    height: 56px;
+
+}
