@@ -17,11 +17,7 @@ main{
     align-items: center;
 }
 .container{
-    background:  #FAACA8;
-    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
-    ;
-    ;
-   
+    background:#FFFFFF;
     width: 870px;
     height: 700px;
     padding: 30px;
@@ -101,6 +97,7 @@ top blogs  styles* *
     width: 224px;
     height: 127px;
 }
+
 .blog-info{
 
   margin-left: 15px;
@@ -120,12 +117,60 @@ top blogs  styles* *
 }
 /* /////////////////////////////////////////////////////// */
   
-                 /* Latest- course */
+                 /* Latest- course */ 
 
 /* /////////////////////////////////////////////////////// */
 
+.box-shadow{
+  
+   width: 200px;
+   height: 300px;
+   border-radius: 10px;
+   border: 0;
+   margin-top: 100px;
+   margin-bottom: 20px;
+   padding: 30px;
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+   background-color: #DCD9D4;
+   background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+   background-blend-mode: soft-light,screen;;
+ 
+  
+ 
+   
+  
+
+
+}
+.courses{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-column-gap:24px;
+   width: 400px;
+   height: 300px;
+  
+ 
+  
+
+}
+
 .course .course-banner img{
 
-    width: 266px;
-    height: 141px;
+    width:100%;
+   margin-right: 50px;
+   
+}
+.course-info{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.bxs-star.filled{
+   color:#FFC014 ; 
+}
+
+.bxs-star.empty{
+ color: #AEAEAE;
 }
